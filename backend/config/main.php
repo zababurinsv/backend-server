@@ -15,13 +15,13 @@ return [
         'converter' => [
             'class' => 'backend\modules\converter\Converter',
         ],
-        'api' => [
-            'class' => 'backend\modules\api\Api',
-        ],
     ],
     'components' => [
         'request' => [
             'baseUrl' => '/admin',
+            'parsers' => [
+                'application/json' => 'yii\web\JsonParser',
+            ],
         ],
         'user' => [
             'identityClass' => 'common\models\User',

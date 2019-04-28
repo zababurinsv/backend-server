@@ -12,7 +12,8 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yiisoft/yii2"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.6",
@@ -22,7 +23,10 @@
         "nesk/puphpeteer": "^1.5",
         "aktuba/php-puppeteer": "^0.1.0",
         "yiisoft/yii2-httpclient": "^2.0",
-        "guzzlehttp/guzzle": "~6.0"
+        "guzzlehttp/guzzle": "~6.0",
+        "consik/yii2-daemons": "^1.0",
+        "phantom-d/yii2-file-daemon": "dev-master",
+        "inpassor/yii2-daemon": "^0.3.4"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
